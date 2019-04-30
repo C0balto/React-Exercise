@@ -1,13 +1,13 @@
-nav {
+div.menu {
   position: absolute;
 }
-nav ul li {
+div.menu ul li {
   display: inline;
   padding:5px;
   color: white;
   cursor: pointer;
 }
-nav ul li:hover {
+div.menu ul li:hover {
   text-decoration: underline aqua;
 }
 .videocluster {
@@ -138,4 +138,21 @@ background-color: #141414;
 }
 .texto{
   width: 100%;
+}
+
+.inmodal {
+  max-width: 100%;
+}
+
+.modalcall {
+  background-color:#0001;
+  min-width: 10vw;
+  min-height: 100%;
+  cursor: pointer;
+}
+.try {
+  margin-top:10%;
+  max-width: 40vw;
+  max-height: 45vh;
+  text-align: justify;
 }
